@@ -1,0 +1,120 @@
+.mainDiv{
+    margin-bottom: 5%;
+}
+
+.card-header{
+    color: white;
+}
+
+.card{
+    width: 30%;
+    margin: auto;
+    margin-top: 5%;
+    box-shadow: 10px 10px 5px grey;
+}
+
+#wyrCard{
+    width: 85%;
+    height: fit-content;
+    text-align: center;
+}
+
+#detailsCard{
+    width: 45%;
+    height: fit-content;
+    text-align: center;
+}
+
+#btn-login{
+    background-color: #343a40;
+    opacity: 0.7;
+}
+
+#btn-login:hover{
+    opacity: 1;
+}
+
+#logo{
+    width: 55%;
+    height: 55%;
+}
+
+#userAvatar{
+    width: 75px;
+    height: 75px;
+}
+
+#userAvatarInCard{
+    width: 100px;
+    height: 100px;
+}
+
+#homeTab{
+    margin: 0 auto;
+    width: fit-content;
+}
+
+#headingHr{
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
+}
+
+.card-title{
+    text-align: center;
+}
+
+#optionTwoText{
+    text-align: right;
+}
+
+#optionTwoSubtitle{
+    text-align: right;
+}
+
+#optionOneText{
+   text-align: left;
+}
+
+#optionOneSubtitle{
+    text-align: left;
+}
+
+#newQuestionBtn{
+    text-align: center;
+}
+
+.indicateUserChoice{
+    border: 1.5px red solid;
+}
+
+#navLinks ul{
+    display: flex;
+    margin-top: 2%;
+    width: 100%;
+}
+
+#navLinks{
+    text-align: center;
+    width: 100%
+}
+
+#navLinks li{
+    // display: inline-block;
+    // border: 1px solid white;
+    // display: inline-block;
+    // height: fit-content;
+    list-style-type: none;
+    // text-align: center;
+    // width: 55%;
+    // margin: 1em 0;
+    margin-right: 15%;
+}
+
+#navLinks li p{
+    color: white;
+}
+
+@import "~bootstrap/scss/bootstrap";
